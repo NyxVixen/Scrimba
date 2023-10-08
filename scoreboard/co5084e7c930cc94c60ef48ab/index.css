@@ -1,0 +1,94 @@
+@font-face {
+    font-family: "digitalFont";
+    src: url("01-digit.regular.ttf");
+}
+
+body {
+    background-image: url("https://media.istockphoto.com/id/539259723/photo/basketball-arena.jpg?s=612x612&w=0&k=20&c=Lu2-rKqcoUA_qK4YqNvl9LuWpNMQ3F1kMNzcXkDt_QY=");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    margin: auto;
+    text-align: center;
+    font-family: digitalFont;    
+    background-color: black;
+    color: #ff7b00;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.container button {
+    width: 50px;
+    height: 50px;
+}
+
+#new-game-el {
+    margin: auto;
+    padding: 10px 30px;
+    font-size: 24px;
+    background-image: url("https://static.vecteezy.com/system/resources/thumbnails/000/135/839/small/basketball-texture-free-vector.png");
+    background-position: center;
+    background-blend-mode: overlay;
+}
+
+.new-game {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+#home-el, #guest-el {
+    background-color: #250902;
+    border-radius: 6px;
+    box-shadow: 1px 1px 8px red;
+    height: 120px;
+    width: 120px;
+    padding: 8px;
+    margin-top: 35px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: #ffb627;
+    text-shadow: 2px 1px 3px #ef233c;
+    font-size: 4rem;
+    margin: 10px auto;
+}
+
+h3 {
+    margin: auto;
+    font-size: 36px;
+    margin: 10px auto;
+    text-shadow: 1px 1px 5px #86bbd8;
+}
+
+button {
+    border: 4px outset #db7c26;
+    border-radius: 8px;
+    font-family: digitalFont;
+    font-weight: 800;
+    font-size: 20px;
+    text-shadow: 1px 1px 3px black;
+    background-color: #c32f27;
+    color: white;
+    padding: 10px;
+    margin: 20px 4px;
+}
+
+button:hover {
+    transform: scale(104%);
+    transition: 300ms;
+    box-shadow: 1px 1px 8px black;
+}

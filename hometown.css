@@ -1,0 +1,378 @@
+body {
+    position: relative;
+    width: 720px;
+    height: 1115px;
+    background: #FFFFFF;
+}
+
+hero {
+    position: absolute;
+    width: 748px;
+    height: 349px;
+    left: -28px;
+    top: -6px;
+
+    background: rgba(0, 0, 0, 0.2);
+}
+
+hero-txt {
+    position: absolute;
+    width: 407px;
+    height: 65px;
+    left: 186px;
+    top: 47px;
+}
+
+visit {
+    position: absolute;
+    width: 407px;
+    height: 65px;
+    left: 186px;
+    top: 47px;
+    font-family: 'Aclonica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    border: 1px solid #000000;
+}
+
+rec2 {
+    position: absolute;
+width: 407px;
+height: 65px;
+left: 186px;
+top: 47px;
+
+background: rgba(85, 183, 165, 0.59);
+border-radius: 10px;
+}
+
+hero-txt2 {
+    position: absolute;
+        width: 471px;
+        height: 66px;
+        left: 153px;
+        top: 124px;
+}
+
+redmond-img {
+    position: absolute;
+        width: 721px;
+        height: 343px;
+        left: 28px;
+        top: 6px;
+    
+        background: url(member-placeholder-photo-61-768x512.jpg);
+}
+
+activities {
+    position: absolute;
+        width: 720px;
+        height: 379px;
+        left: 0px;
+        top: 343px;
+        background: url(DSC_0131.jpg), linear-gradient(180deg, rgba(0, 255, 194, 0.5) 99.47%, rgba(20, 255, 0, 0) 100%), linear-gradient(180deg, rgba(0, 122, 235, 0.5) 38.54%, rgba(0, 0, 0, 0) 100%), linear-gradient(180deg, rgba(0, 26, 255, 0.7) 42.19%, rgba(0, 0, 0, 0) 100%);
+}
+
+top-activities {
+    position: absolute;
+        width: 439px;
+        height: 20px;
+        left: 140px;
+        top: 39px;
+    
+        font-family: 'Aclonica';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 27px;
+        text-align: center;
+    
+        color: #1D3557;
+}
+
+lake {
+    position: absolute;
+        width: 225px;
+        height: 222px;
+        left: 25px;
+        top: 114px;
+}
+
+water-fun {
+    position: absolute;
+        width: 183px;
+        height: 32px;
+        left: 38px;
+        top: 243px;
+    
+        font-family: 'Aclonica';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 18px;
+        text-align: center;
+    
+        color: #1D3557;
+}
+
+lakefront {
+    position: absolute;
+        width: 100px;
+        height: 99.34px;
+        left: 83px;
+        top: 114px;
+    
+        background: url(billy chinook-0816-fb-5(1).jpg);
+}
+
+lake-ellipse {
+    position: absolute;
+        width: 100px;
+        height: 100px;
+        left: 83px;
+        top: 114px;
+    
+        background: #C4C4C4;
+}
+
+mountain {
+    position: absolute;
+        width: 198px;
+        height: 230px;
+        left: 265px;
+        top: 113px;
+}
+
+mt-bachelor {
+    position: absolute;
+        width: 198px;
+        height: 54px;
+        left: 265px;
+        top: 289px;
+    
+        font-family: 'Acme';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+    
+        color: #1D3557;
+}
+
+chill {
+    position: absolute;
+        width: 162px;
+        height: 35px;
+        left: 283px;
+        top: 243px;
+    
+        font-family: 'Aclonica';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 18px;
+        text-align: center;
+    
+        color: #1D3557;
+}
+
+mask-bachelor {
+    position: absolute;
+        width: 100px;
+        height: 100px;
+        left: 314px;
+        top: 113px;
+}
+
+park {
+    position: absolute;
+        width: 103.97px;
+        height: 103.97px;
+        left: 314px;
+        top: 113px;
+    
+        background: url(Mt.-Bachelor-Sunrise.jpg);
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+park-ellipse {
+    position: absolute;
+        width: 100px;
+        height: 100px;
+        left: 314px;
+        top: 113px;
+    
+        background: #C4C4C4;
+}
+
+smith-rock {
+    position: absolute;
+        width: 215px;
+        height: 231px;
+        left: 474px;
+        top: 104px;
+}
+
+field {
+    position: absolute;
+        width: 215px;
+        height: 54px;
+        left: 474px;
+        top: 281px;
+}
+
+hike {
+position: absolute;
+    width: 215px;
+    height: 54px;
+    left: 474px;
+    top: 281px;
+
+    font-family: 'Acme';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+
+    color: #1D3557;
+}
+
+take-a-hike {
+    position: absolute;
+        width: 197px;
+        height: 38px;
+        left: 483px;
+        top: 243px;
+    
+        font-family: 'Aclonica';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 18px;
+        text-align: center;
+    
+        color: #1D3557;
+}
+
+hike-mask {
+    position: absolute;
+        width: 100px;
+        height: 100px;
+        left: 529px;
+        top: 104px;
+}
+
+smith-rock {
+    position: absolute;
+        width: 100.66px;
+        height: 100.66px;
+        left: 528.34px;
+        top: 104px;
+    
+        background: url(Smith_Rock_Sunrise_131042LND8_sqsp.jpg);
+}
+
+smith-rock-ellipse {
+    position: absolute;
+        width: 100px;
+        height: 100px;
+        left: 529px;
+        top: 104px;
+    
+        background: #C4C4C4;
+}
+
+guide {
+    box-sizing: border-box;
+    
+        position: absolute;
+        width: 720px;
+        height: 394px;
+        left: 0px;
+        top: 721px;
+    
+        background: url(depositphotos_463402958-stock-photo-view-bachelor-three-sisters-sisters.png), linear-gradient(180deg, rgba(0, 255, 194, 0.7) 26.04%, rgba(0, 88, 78, 0) 100%), linear-gradient(180deg, rgba(0, 122, 235, 0.275) 38.54%, rgba(0, 0, 0, 0) 100%), linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(4, 0, 20, 0.03282) 0.01%, rgba(51, 0, 255, 0.415) 16.15%, rgba(173, 0, 234, 0.47) 100%);
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+anastasia {
+    position: absolute;
+        width: 189px;
+        height: 18px;
+        left: 360px;
+        top: 282px;
+    
+        font-family: 'Aclonica';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 18px;
+        text-align: center;
+    
+        color: #00398A;
+}
+
+lived {
+    position: absolute;
+        width: 189px;
+        height: 71px;
+        left: 360px;
+        top: 145px;
+    
+        font-family: 'Acme';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+    
+        color: #00398A;
+}
+
+about {
+    position: absolute;
+        width: 207px;
+        height: 32px;
+        left: 349px;
+        top: 73px;
+    
+        font-family: 'Aclonica';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 27px;
+        text-align: center;
+    
+        color: #00398A;
+}
+
+myPhoto {
+    position: absolute;
+        width: 180px;
+        height: 248.67px;
+        left: 173px;
+        top: 73px;
+    
+        background: url(20230327_154136.jpg);
+        border-radius: 10px;
+}
+
+background {
+    position: absolute;
+        width: 400px;
+        height: 294px;
+        left: 160px;
+        top: 50px;
+    
+        background: rgba(130, 255, 202, 0.78);
+        box-shadow: 0px 6px 0px #71A8F7;
+        border-radius: 10px;
+}
